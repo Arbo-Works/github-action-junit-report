@@ -158,7 +158,7 @@ function attachSummary(testResults, detailedSummary, includePassed, screenshots)
                                     ? `⏭️ skipped`
                                     : `❌ ${annotation.annotation_level}`}`,
                             `${annotation.message}`,
-                            `${screenshot !== undefined ? `<img src="${screenshot}" style="max-height:500px;"></img>` : `NA`}`
+                            `${screenshot !== undefined ? `<img src="${screenshot}" height="500"></img>` : `NA`}`
                         ]);
                     }
                 }
