@@ -167,7 +167,7 @@ export async function attachSummary(
                 : `❌ ${annotation.annotation_level}`
             }`,
             `${annotation.message}`,
-            `${screenshot !== undefined ? `<img src="${screenshot}"></img>` : `NA`}`
+            `${screenshot !== undefined ? `<img src="${screenshot}" style="max-height:500px;"></img>` : `NA`}`
           ])
         }
       }
